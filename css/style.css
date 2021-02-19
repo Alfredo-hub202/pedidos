@@ -1,0 +1,92 @@
+/* estilos globales*/
+/*componentes globales*/
+html, body {
+    height: 100%;
+}
+
+main {
+    overflow:auto;
+    padding-bottom:150px; /* this needs to be bigger than footer height*/
+}
+footer {
+    width: 100%;
+    position: relative;
+    margin-top: -150px; /* negative value of footer height */
+    height: 150px;
+    clear: both;
+    padding-top: 20px;
+}
+
+/*nav*/
+#cerrar_sesion_div {
+    font-size: .7rem;
+    padding: 0;
+}
+
+#cerrar_sesion_div a {
+    color: white;
+}
+
+#cerrar_sesion_div a:hover {
+    text-decoration: underline;
+}
+
+#cerrar_sesion_div a svg {
+    /* color:darkred;*/
+    font-size: 1rem;
+}
+
+#cerrar_sesion_nav {
+    border-top: 1px solid #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav:hover {
+    color: #343a40;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #343a40;
+}
+
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .nav-link.active {
+    border-bottom: 1px solid #ffffff;
+
+}
+
+#preparaciones_dellates_info_container.row .col-12.col-md-6 .row .col-4, #preparaciones_dellates_info_container.row .col-12.col-md-6.datos_cliente_box {
+    padding: 0;
+}
+
+#preparaciones_dellates_info_container.row .col-12.col-md-6 .row .col-4 .col-12,
+#preparaciones_dellates_info_container.row .col-12.col-md-6.datos_cliente_box, .datos_cliente_box .col-12 {
+    border: 1px solid #3a3a3a;
+}
+
+.preparaciones_dellates_info_container_title {
+    background-color: #EEEEEE;
+    padding: 0;
+    margin: 0;
+
+}
+
+.preparaciones_dellates_info_container_almacen, .preparaciones_dellates_info_container_almacen .preparaciones_dellates_info_container_title {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #3a3a3a;
+}
+
+#preparaciones_dellates_info_container.row .col-12.col-md-6 .row .col-4 .title .text-center,
+#preparaciones_dellates_info_container.row .col-12.col-md-6.datos_cliente_box .col-12.title .text-center #preparaciones_dellates_info_container.row .col-12 .col-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.datos_cliente_box .col-12.title {
+    border: 1px solid #3a3a3a;
+}
